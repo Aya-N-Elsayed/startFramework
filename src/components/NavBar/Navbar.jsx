@@ -17,7 +17,7 @@ export const Navbar = () => {
     <div className={style.nav}>
       <nav className="navbar navbar-expand-lg ">
         <div className="container text-white">
-          <Link className="navbar-brand home fw-bolder fs-2" onClick={function(){
+          <Link className="navbar-brand home active fw-bolder fs-2" onClick={function(){
             activeLink("home");
           }} to="/home">
             START FRAMEWORK{" "}
@@ -37,7 +37,7 @@ export const Navbar = () => {
             <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  className="nav-link active about fw-bold"
+                  className="nav-link  about fw-bold"
                   aria-current="page"
                   onClick={function(){
                     activeLink("about");
