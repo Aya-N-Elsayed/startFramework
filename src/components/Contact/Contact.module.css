@@ -1,0 +1,53 @@
+
+.form input{
+    border-width: 0px 0px 1px 0px;
+
+}
+
+.form{
+    /* background-color: aqua; */
+    width: 65%;
+    margin-inline: auto;
+}
+
+.form label{
+
+     color: var(--bs-teal);
+     display: none;
+     transition: all 500ms;
+}
+
+.formControl:focus{
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #6688bc;
+   
+    outline: 0;
+    border-width: 0px 0px 1px 0px;
+  
+
+}
+
+ .form input:not(:placeholder-shown) +  label{
+    display: block;
+
+}
+
+
+.formControl {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
