@@ -6,7 +6,7 @@ export const About = () => {
 
 
     <div className="bg-main">
-          <div className="text-white d-flex flex-column align-items-center justify-content-center py-5 container ">
+          <div className="text-white d-flex flex-column align-items-center justify-content-center py-5 container h-100">
       <Headers title="ABOUT COMPONENT" color="white" />
       <div className="row my-5  justify-content-center ">
         <div className="col-md-4">

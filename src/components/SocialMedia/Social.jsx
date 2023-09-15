@@ -6,7 +6,7 @@ import style from './Social.module.css';
 export const Social = () => {
   return (
     <div>
-     <ul className="d-flex mx-auto p-0">
+     <ul className="d-flex justify-content-center p-0">
     <li>
       <a className={style.icons} href="facebook">
         <FontAwesomeIcon icon={faFacebookF} />
